@@ -1,0 +1,7 @@
+/android/data /data
+/android/system /system
+/android/vendor /vendor
+/android/cache /cache
+/android/persist /persist
+/android/product /product
+/android/metadata /metadata

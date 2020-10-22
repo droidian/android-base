@@ -1,0 +1,14 @@
+Source: android-base
+Maintainer: Giuseppe Corti (r3vn) <giuseppe.corti@protonmail.com>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/hybris-mobian/android-base
+Vcs-Git: https://github.com/hybris-mobian-releng/android-base
+
+Package: android-base
+Architecture: all
+Depends: ${misc:Depends}
+Description: Android base mountpoints, users and groups
+

@@ -1,0 +1,5 @@
+/usr/lib/sysusers.d
+/usr/lib/android-base
+/android
+/userdata
+/mnt/vendor/persist

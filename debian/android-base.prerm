@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+
+remove() {
+
+	# Restore Calls daemon config
+	if [ -e "/usr/lib/android-base/adduser.conf.debian" ]; then
+		rm -f "/etc/adduser.conf"
+		dpkg-divert --rename --package android-base --divert "/usr/lib/android-base/adduser.conf.debian" --remove "/etc/adduser.conf"
+	fi
+}
+
+case "$1" in
+	"remove")
+		remove
+		;;
+esac
