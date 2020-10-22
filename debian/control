@@ -7,8 +7,13 @@ Standards-Version: 4.5.0.3
 Vcs-Browser: https://github.com/hybris-mobian/android-base
 Vcs-Git: https://github.com/hybris-mobian-releng/android-base
 
-Package: android-base
+Package: android-base-files
 Architecture: all
 Depends: ${misc:Depends}
-Description: Android base mountpoints, users and groups
+Description: Android base mountpoints
+
+Package: android-base-passwd
+Architecture: all
+Depends: ${misc:Depends}
+Description: Android base users and groups
 
