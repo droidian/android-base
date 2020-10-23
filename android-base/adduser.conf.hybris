@@ -28,17 +28,17 @@ SKEL=/etc/skel
 # Please note that system software, such as the users allocated by the base-passwd
 # package, may assume that UIDs less than 100 are unallocated.
 FIRST_SYSTEM_UID=32011
-LAST_SYSTEM_UID=999
+LAST_SYSTEM_UID=39999
 
 FIRST_SYSTEM_GID=32011
-LAST_SYSTEM_GID=999
+LAST_SYSTEM_GID=39999
 
 # FIRST_[GU]ID to LAST_[GU]ID inclusive is the range of UIDs of dynamically
 # allocated user accounts/groups.
-FIRST_UID=1000
+FIRST_UID=32011
 LAST_UID=59999
 
-FIRST_GID=1000
+FIRST_GID=32011
 LAST_GID=59999
 
 # The USERGROUPS variable can be either "yes" or "no".  If "yes" each
