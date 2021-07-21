@@ -5,3 +5,5 @@
 /android/persist /persist
 /android/product /product
 /android/metadata /metadata
+/android/apex /apex
+/android/odm /odm
