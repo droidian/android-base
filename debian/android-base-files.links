@@ -7,3 +7,4 @@
 /android/metadata /metadata
 /android/apex /apex
 /android/odm /odm
+/android/vendor_dlkm /vendor_dlkm
