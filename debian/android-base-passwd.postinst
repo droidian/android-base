@@ -2,7 +2,7 @@
 set -e
 
 configure() {
-	runonce-queue sysusers-update 5
+	runonce-queue sysusers-update 6
 	if [ -e "/var/lib/runonce/queue/sysusers-update" ]; then
 		runonce sysusers-update
 	fi
